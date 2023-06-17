@@ -41,5 +41,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['C:\\Users\\Rafał\\PycharmProjects\\ASZO_keylogger\\exeicon.ico'],
+    icon=['exeicon.ico'],
 )
